@@ -63,6 +63,7 @@ public class Practice6Test {
 		
 		for (int i = 1; i < entered; i++) {
 			int n = heap.remove();
+			//System.out.println("n: " + n);
 			if (n > bound) {
 				correct = false;
 			}
